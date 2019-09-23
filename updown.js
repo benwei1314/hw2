@@ -13,10 +13,10 @@ function draw() {
   background(220);
 
   fill(255, 0, 0)
-  ellipse(30, ballY, 80);
+  ellipse(300, ballY, 80);
   
   fill(255, 128, 255)
-  ellipse(30, ballY2, 30);
+  ellipse(150, ballY2, 30);
 
   ballY = ballY + ballspeed;
   ballY2 = ballY2 + ballspeed2;
